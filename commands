@@ -1,0 +1,22 @@
+Course: https://www.youtube.com/watch?v=F5mRW0jo-U4&ab_channel=freeCodeCamp.org
+03h08m
+
+Create virtualenv: virtualenv -p python .
+
+Start virtualenv: source bin/activate
+
+Install Django: pip install django==2.0.7 (It's betetr to use 2.1.5)
+
+Start Django project on current folder: django-admin startproject trydjango .
+
+Test if it worked: python manage.py runserver
+
+Syncs the settings with the Django project: python manage.py migrate
+
+Prepare migrations: python manage.py makemigrations
+
+Create super-user (admin): python manage.py createsuperuser
+
+Create a new app: python manage.py startapp appname
+
+Open Python Shell with Django: python manage.py shell
